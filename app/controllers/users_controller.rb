@@ -46,6 +46,6 @@ class UsersController < ApplicationController
   end
 
   def direct_to_default
-    redirect_to '/'+params[:id]
+    redirect_to '/bag/'+params[:id]
   end
 end

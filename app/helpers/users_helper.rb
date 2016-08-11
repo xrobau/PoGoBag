@@ -1,6 +1,6 @@
 module UsersHelper
   def user_link
-    '/'+current_user.name
+    '/bag/'+current_user.name
   end
   def pokemon_image(number)
     file = File.read('app/assets/pokemon.en.json')
